@@ -48,3 +48,7 @@ console.log(reverseChars(secondSampleArr)); // should return ["t", "s", "e", "t"
 
 // Passing in an array with one or no elements will do nothing. 
 console.log(reverseChars(lastSampleArr)); // should return ["a"]
+
+// BIG O COMPLEXITY
+    // Time Cost: O(n) linear time
+    // Space Cost: O(1) constant space
