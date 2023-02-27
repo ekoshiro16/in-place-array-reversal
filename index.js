@@ -2,10 +2,6 @@
 Write a function that takes an array of characters and reverses the characters in-place. 
 */
 
-let sampleArr = ["a", "b", "c"];
-let secondSampleArr = ["t", "e", "s", "t"]; 
-let lastSampleArr = ["a"]
-
 function reverseChars(inputArr) {
     // Edge case test: If the input array is of length 1 or an invalid data type / an empty array, spit the input value right back out. 
     if (inputArr.length == 1 || !inputArr.length) return inputArr;
@@ -37,6 +33,12 @@ function reverseChars(inputArr) {
     // Finally, return the input array.
     return inputArr;
 }
+
+
+// TESTS
+let sampleArr = ["a", "b", "c"];
+let secondSampleArr = ["t", "e", "s", "t"]; 
+let lastSampleArr = ["a"]
 
 // Passing in an array with an odd number of characters will swap all elements except for the middle element. 
 console.log(reverseChars(sampleArr)); // should return ["c", "b", "a"]
